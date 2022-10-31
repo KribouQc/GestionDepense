@@ -5,8 +5,9 @@ namespace GestionDepense.Core.CompteBanquaire.Application.Interface
 {
 	public interface ICompteBanquaireService
 	{
-		public List<Compte> GetCompteBanquaires();
-		public void CreerCompte(CompteCreation compte);
+		public List<Compte> GetComptesBanquaires();
+        public Compte GetCompteBanquaire(Guid idCompte);
+        public void CreerCompte(CompteCreation compte);
 	}
 }
 

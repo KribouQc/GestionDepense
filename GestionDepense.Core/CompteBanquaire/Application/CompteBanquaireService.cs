@@ -20,10 +20,17 @@ namespace Gestion_Depense_core.CompteBanquaire.Application
             _compteBanquaireRepository.CreerCompte(compte);
         }
 
-        public List<Compte> GetCompteBanquaires()
+        public Compte GetCompteBanquaire(Guid idCompte)
         {
-            return _compteBanquaireRepository.GetCompteBanquaires();
+            return _compteBanquaireRepository.GetCompteBanquaire(idCompte);
         }
+
+        public List<Compte> GetComptesBanquaires()
+        {
+            return _compteBanquaireRepository.GetComptesBanquaires();
+        }
+
+       
     }
 }
 
