@@ -1,6 +1,6 @@
 ﻿using System;
-using Gestion_Depense_core.CompteBanquaire.Domaine;
-using Gestion_Depense_core.CompteBanquaire.Application.Interface;
+using GestionDepense.Core.CompteBanquaire.Domaine;
+using GestionDepense.Core.CompteBanquaire.Application.Interface;
 
 using Gestion_Depense_Infrastructure.Data;
 

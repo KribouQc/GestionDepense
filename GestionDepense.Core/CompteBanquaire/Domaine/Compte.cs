@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Gestion_Depense_core.CompteBanquaire.Domaine;
+namespace GestionDepense.Core.CompteBanquaire.Domaine;
 
 	public class Compte
 	{

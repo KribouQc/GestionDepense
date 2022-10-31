@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using Gestion_Depense_core.CompteBanquaire.Domaine;
+using GestionDepense.Core.CompteBanquaire.Domaine;
 
 namespace Gestion_Depense_Infrastructure.Data;
 

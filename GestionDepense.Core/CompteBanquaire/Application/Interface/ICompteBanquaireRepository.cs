@@ -1,7 +1,7 @@
 ﻿using System;
-using Gestion_Depense_core.CompteBanquaire.Domaine;
+using GestionDepense.Core.CompteBanquaire.Domaine;
 
-namespace Gestion_Depense_core.CompteBanquaire.Application.Interface;
+namespace GestionDepense.Core.CompteBanquaire.Application.Interface;
 
     public interface ICompteBanquaireRepository
 	{

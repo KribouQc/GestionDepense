@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GestionDepense.Core.CompteBanquaire.Application.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Gestion_Depense_core.CompteBanquaire.Application.Interface;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace Gestion_depense_API.Controllers
+namespace Gestiondepense.API.Controllers
 {
     [Route("api/[controller]")]
     public class CompteBanquaireController : ControllerBase
@@ -22,9 +23,7 @@ namespace Gestion_depense_API.Controllers
 
         [HttpGet]
         public IActionResult GetCompte()
-        {
-           
-            
+        {          
             return Ok(_compteBanquaireService.GetCompteBanquaires());
         }
         

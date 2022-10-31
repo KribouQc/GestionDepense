@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Gestion_Depense_core.CompteBanquaire.Application
+namespace GestionDepense.Core.CompteBanquaire.Application
 {
 	public class CompteBanquaireDTO
 	{
